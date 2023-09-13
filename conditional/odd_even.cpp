@@ -1,4 +1,4 @@
-#include<iostream>  
+ #include<iostream>  
 using namespace std;
 int main()
 {
@@ -6,7 +6,11 @@ int main()
     cout<<"number n:";
     cin>>n;
      if(n%2==0)
+     {
         cout<<"even number";
-    else
+     }
+    else 
+    {
           cout<<"odd number";
+    }
     }
